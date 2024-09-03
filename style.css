@@ -33,7 +33,7 @@ a{
     color:white;
 }
 a:hover{
-    color: #14b8a6;
+    color: #c2c2c2;
 }
 .navbar{
     display:flex;
@@ -51,7 +51,7 @@ a:hover{
     height:150px;
     justify-content:space-between;
     align-items:center;
-    margin-right:280px;
+    margin-right:20px;
     margin-top:50px
 
 }
@@ -60,10 +60,10 @@ p{
     color: #374151;
 }
 img{
-    height:400px;
+    height:350px;
     width:auto;
     margin-top:200px;
-    margin-left:150px;
+    margin-left:100px;
     border-radius:10px;
     z-index:1;
     opacity:1;
@@ -74,7 +74,7 @@ img{
     display:flex;
     flex-direction:row;
     justify-content:flex-end;
-    margin-right:200px;
+    margin-right:100px;
 
 }
 .smalldes{
