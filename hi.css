@@ -5,8 +5,15 @@ body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     height:100vh;
     width: 100vw;
-    position:realtive;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between
 }
+#monica-content-root {
+    display: none !important;  /* This hides the element */
+}
+
 .navbar {
     display: flex;
     flex-direction: row;
