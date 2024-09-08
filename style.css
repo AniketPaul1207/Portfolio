@@ -5,7 +5,6 @@ body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     height:100vh;
     width: 100vw;
-    position:relative;
     display: flex;
     flex-direction: column;
     justify-content:space-between
@@ -13,7 +12,6 @@ body{
 #monica-content-root {
     display: none !important;  /* This hides the element */
   }
-
 .navbar {
     display: flex;
     flex-direction: row;
@@ -162,6 +160,7 @@ a:hover{
     justify-content: center;
     align-items:center;
     gap:20px;
+    margin-top:0px;
 
 
 }
@@ -204,12 +203,10 @@ footer {
     color: white;
     padding: 20px 0;
     text-align: center;
-    position: fixed;
     bottom: 0;
     width: 100%;
     height:60px;
 }
-
 .footer-content {
     display: flex;
     flex-direction: column;
@@ -235,17 +232,4 @@ footer {
 .rights {
     font-size: 0.9rem;
     color:#ffffff;
-}
-@media only screen and (max-width: 768px) {
-  body {
-    font-size: 14px;
-    padding: 10px;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  body {
-    font-size: 12px;
-    padding: 5px;
-  }
 }

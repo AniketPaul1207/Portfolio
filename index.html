@@ -23,7 +23,7 @@
     <div class="des">
         <img src="img.jpeg" alt="starry night">
         <div class="desc">
-            <a href="hi.html"><h1>Hi, I'm Aniket</h1></a>
+            <a href="hi.html"><h1>Hi, I'm Aniket 👋</h1></a>
             <span id="intro">I'm a B.Tech fresher studying Electronics and Communication Engineering at VIT Vellore, with a strong interest in data science and tech.</span>
             <a href="about.html">Know more about me..</a>
         </div>
@@ -88,5 +88,15 @@
             </div>
         </div>
     </footer>
+    <script>
+        // Use setInterval to check for the widget every 500 milliseconds
+        const interval = setInterval(function () {
+          const monicaWidget = document.getElementById('monica-content-root');
+          if (monicaWidget) {
+            monicaWidget.remove();  // Remove the widget
+            clearInterval(interval);  // Stop checking once it's removed
+          }
+        }, 500);  // Check every 500ms
+      </script>
 </body>
 </html>
